@@ -6,10 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="See different styles of your cursor!">
     <meta name="theme-color" content="#fffefe"/>
-    <link rel="icon" href="mouse.png">
+    <link rel="icon" href="./mouse.png">
+    <meta name="author" content="Nabeelgit">
+    <meta name="theme-color" content="#fffff">
+    <meta property="og:title" content="Cursor Changer!">
+    <meta property="og:description" content="Check different styles of your cursor!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nabeelgit.github.io/cursor-changer/">
+    <meta property="og:image" content="https://nabeelgit.github.io/cursor-changer/mouse.png">
+    <meta name="twitter:card" content="https://nabeelgit.github.io/cursor-changer/mouse.png">
+    <meta name="twitter:title" content="Cursor changer!">
+    <meta name="twitter:description" content="Check different styles of your cursor">
+    <meta name="twitter:image" content="https://nabeelgit.github.io/cursor-changer/mouse.png">
     <title>Test your cursor style</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        body {
+            background: #f4f4f4; 
+            margin: 0; 
+            font-family: 'Roboto', sans-serif;
+        }
         .container{
             display: flex;
             align-items: center;
@@ -22,107 +38,111 @@
             height: 300px;
             border: solid 1px;
             margin: 50px;
+            box-shadow: 0px 0px 18px 3px rgba(255, 254, 254, 0.2);
         }
         .navigation{
             top: 0;
             overflow: hidden;
-            background-color: whitesmoke;
             margin: 0 auto;
             left: 0;
             right: 0;
             text-align: center;
             -webkit-box-shadow: 0px 6px 6px 0 rgb(40 39 39 / 26%);
-	         -moz-box-shadow: 0px 6px 6px 0 rgb(40 39 39 / 26%);
-             box-shadow: 0px 6px 6px 0 rgb(40 39 39 / 26%);
+	        -moz-box-shadow: 0px 6px 6px 0 rgb(40 39 39 / 26%);
+            box-shadow: 0px 6px 6px 0 rgb(40 39 39 / 26%);
         }
     </style>
 </head>
-<body style="background: #fffefe; margin: 0; font-family: 'Roboto', sans-serif;">
+<body>
     <div class="navigation">
-    <h1>Hover over the boxes to see different styles of your cursor!</h1>
+        <h1>Hover over the boxes to see different styles of your cursor!</h1>
+        <h3 style="font-weight: normal;">If your cursor doesn't change that means that cursor isn't available for you</h3>
     </div>
-<div class="container">   
-<div style="cursor: default;">
-<p>Default cursor</p>
-
-</div>
-<div style="cursor: wait;">
-<p>Loading cursor</p>
-
-</div>
-<div style="cursor: progress;">
-<p>Progress cursor</p>
-
-</div>
-<div style="cursor: crosshair;">
-<p>Crosshair cursor</p>
-
-</div>
-<div style="cursor: help;">
-<p>Help cursor</p>
-
-</div>
-<div style="cursor: zoom-in;">
-<p>Zoom in cursor</p>
-
-</div>
-<div style="cursor: zoom-out;">
-<p>Zoom out cursor</p>
-
-</div>
-<div style="cursor: text;">
-<p>Text cursor</p>
-
-</div>
-<div style="cursor: not-allowed;">
-<p>Not allowed cursor</p>
-
-</div>
-<div style="cursor: sw-resize;">
-<p>Resize cursor (/)</p>
-
-</div>
-<div style="cursor: se-resize;">
-<p>Resize cursor (\)</p>
-</div>
-<div style="cursor: ns-resize;">
-<p>Row resize cursor</p>
-
-</div>
-<div style="cursor: ew-resize;">
-<p>Column resize cursor</p>
-
-</div>
-<div style="cursor: -webkit-grab; cursor: grab;">
-<p>Grab cursor</p>
-
-</div>
-<div style="cursor: -webkit-grabbing; cursor: grabbing;">
-<p>Grabbing cursor</p>
-
-</div>
-<div style="cursor: move;">
-<p>Move cursor</p>
-</div>
-<div style="cursor: pointer;">
-<p>Pointer cursor</p>
-
-</div>
-<div style="cursor: copy;">
-<p>Copy cursor</p>
-
-</div>
-<div style="cursor: no-drop;">
-<p>No drop cursor</p>
-
-</div>
-<div style="cursor: vertical-text;">
-<p>Vertical text</p>
-
-</div>
-<div style="cursor: context-menu;"> 
-<p>Context-menu cursor</p>
-</div>
-</div>
+    <div class="container">   
+        <div style="cursor: default;">
+            <p>Default cursor</p>
+        </div>
+        <div style="cursor: wait;">
+            <p>Wait cursor</p>
+        </div>
+        <div style="cursor: progress;">
+            <p>Progress cursor</p>
+        </div>
+        <div style="cursor: crosshair;">
+            <p>Crosshair cursor</p>
+        </div>
+        <div style="cursor: help;">
+            <p>Help cursor</p>
+        </div>
+        <div style="cursor: zoom-in;">
+            <p>Zoom in cursor</p>
+        </div>
+        <div style="cursor: zoom-out;">
+            <p>Zoom out cursor</p>
+        </div>
+        <div style="cursor: text;">
+            <p>Text cursor</p>
+        </div>
+        <div style="cursor: not-allowed;">
+            <p>Not allowed cursor</p>
+        </div>
+        <div style="cursor: sw-resize;">
+            <p>Resize cursor (/)</p>
+        </div>
+        <div style="cursor: se-resize;">
+            <p>Resize cursor (\)</p>
+        </div>
+        <div style="cursor: ns-resize;">
+            <p>Row resize cursor</p>
+        </div>
+        <div style="cursor: ew-resize;">
+            <p>Column resize cursor</p>
+        </div>
+        <div style="cursor: -webkit-grab; cursor: grab;">
+            <p>Grab cursor</p>
+        </div>
+        <div style="cursor: -webkit-grabbing; cursor: grabbing;">
+            <p>Grabbing cursor</p>
+        </div>
+        <div style="cursor: move;">
+            <p>Move cursor</p>
+        </div>
+        <div style="cursor: pointer;">
+            <p>Pointer cursor</p>
+        </div>
+        <div style="cursor: copy;">
+            <p>Copy cursor</p>
+        </div>
+        <div style="cursor: no-drop;">
+            <p>No drop cursor</p>
+        </div>
+        <div style="cursor: vertical-text;">
+            <p>Vertical text</p>
+        </div>
+        <div style="cursor: context-menu;"> 
+            <p>Context-menu cursor</p>
+        </div>
+        <div style="cursor: alias;"> 
+            <p>Alias cursor</p>
+        </div>
+        <div style="cursor: all-scroll;"> 
+            <p>All scroll cursoe</p>
+        </div>
+        <div style="cursor: auto;"> 
+            <p>Auto cursor</p>
+        </div>
+        <div style="cursor: cell;"> 
+            <p>Cell cursor</p>
+        </div>
+        <div style="cursor: col-resize;"> 
+            <p>Col Resize cursor</p>
+        </div>
+        <div style="cursor: row-resize;">
+            <p>Row resize cursor</p>
+        </div>
+        <div style="cursor: none;">
+            <p>No cursor</p>
+        </div>
+    </div>
 </body>
 </html>
